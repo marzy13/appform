@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .animated-text {
+            animation: slideIn 2s ease-in-out;
+            font-size: 24px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-text">
+        This is your animated text!
+    </div>
+</body>
+</html>
